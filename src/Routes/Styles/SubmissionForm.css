@@ -1,0 +1,30 @@
+
+/* Navbar Component  */
+.navbar{
+    padding:10px 10%;
+}
+
+/* Submission Form Styling  */
+.submission-form {
+    width: 50%;
+    margin: 100px 15%;
+    background-color:#fff;
+}
+.submission-form-heading {
+    font-size: 1.7rem;
+    opacity: 0.8;
+    margin-bottom:40px;
+}
+label {
+    font-size:1.1rem;
+}
+.inputField{
+    margin-bottom:30px;
+}
+.submission-datefield {
+    display:flex;
+    justify-content: space-between;
+}
+.submission-datefield div{
+    flex-basis: 45%;
+}

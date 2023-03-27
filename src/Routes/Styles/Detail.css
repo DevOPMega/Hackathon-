@@ -1,0 +1,115 @@
+
+/* Image  */
+img{
+    width: 75%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Hackathon Detail Head Container class  */
+.hackathon-detail-head-container {
+    padding: 100px 10% 70px 12%;
+    background-color: #003145;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Hackathon Detail Left class  */
+.hackathon-detail-left {
+    flex-basis: 70%;
+}
+/* Upper of left class  */
+.hackathon-detail-upper {
+    flex-basis:70%;
+    display: flex;
+    align-items: center;
+}
+.hackathon-detail-upper div:nth-child(1) {
+    flex-basis: 25%;
+}
+/* Middle of upper class  */
+.hackathon-detail-middle {
+    margin-top:30px;
+}
+.hackathon-detail-middle p {
+    font-size: 1.0rem;
+}
+/* Middle of lower class  */
+.hackathon-detail-lower {
+    width:25%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Favourite  */
+.favourite span{
+    cursor: pointer;
+    font-size: 40px;
+}
+.line span {
+    display: block;
+    width:2px;
+    height: 35px;
+    background-color: #fff;
+}
+/* Date of submission  */
+.date {
+    border: 1px solid gray;
+    background-color: transparent;
+    border-radius: 9px;
+}
+.date>*{
+    margin:4px 5px;
+}
+
+ /* Right part for delete and edit button  */
+.delete-edit-flex {
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+.delete-edit-flex button {
+    width: 70%;
+    margin-bottom: 20px;
+}
+.delete-edit-flex span {
+    transform: translate(-11px, 4px)
+    
+}
+
+/* Description  */
+.hackathon-detail-description {
+    padding: 80px 7% 70px 12%;
+    display: flex;
+    justify-content: space-between;
+}
+.description {
+    flex-basis: 70%;
+}
+.hackathon-detail-date-link {
+    flex-basis: 20%;
+}
+h3 {
+    font-size: 1.3rem;
+}
+.hackathon {
+    color: gray;
+    margin-bottom:20px;
+}
+.hackathon-detail-date-link p {
+    width:100%;
+    font-size: 0.8rem;
+    color: gray;
+}
+.hackathon-end-start span{
+    font-size: 1.3rem;
+    transform: translate(-4px, 7px)
+}
+.hackathon-detail-date-link button {
+    width: 100%;
+    margin:15px 0;
+}
